@@ -21,20 +21,9 @@ else:
 endif;
 
 
-
-/* * *CONFIGURAÇÃO DE E-MAIL** */
-define('EMAILUSER', 'atendimento@lojaconstrucenter.com.br');
-define('EMAILPASS', 'Wsp@8521');
-define('EMAILPORT', '587');
-define('EMAILHOST', 'mail.lojaconstrucenter.com.br');
-
-
 /* * *CONFIGURAÇÃO DO SITE** */
 define('BASE', 'http://wtecinformatica.com'); //base do site
-define('THEME', 'cidadeonline'); //tema do site
-//Anexar e Inclur!
-define('INCLUDE_PATH', BASE . DIRECTORY_SEPARATOR . 'themes' . DIRECTORY_SEPARATOR . THEME);
-define('REQUIRE_PATH', 'themes' . DIRECTORY_SEPARATOR . THEME);
+
 
 //carregamento automatico de classe
 spl_autoload_register(function($Class) {
